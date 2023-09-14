@@ -6,22 +6,44 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  margin: 0 auto;
+  padding: 7px;
 }
 
 .title {
   background: #e3f4ff;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 0;
 }
 
 .content {
   background: #e3f4ff;
+  margin-top: 0;
+  padding: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  margin-top: 10px;
+  padding: 8px;
 }
 
 button {
   background: white;
-  border: 1px solid #eee;
+  margin: auto ;
+  border: none;
+  display: block;
+  text-align: center;
+  padding: 5px 15px ;
 }
+
+
+/*<body>
+<div class="card">
+  <h1 class="title">I'm a card</h1>
+  <div class="content">I have content inside me..lorem ipsum blah blah blah. Here's some stuff you need to read.</div>
+  <div class="button-container">and a <button>BIG BUTTON</button></div>
+</div>
+</body>*/
